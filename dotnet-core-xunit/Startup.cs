@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Prime.Services;
 
 namespace dotnet_core_xunit
 {
@@ -32,6 +33,7 @@ namespace dotnet_core_xunit
             services.AddDbContext<TestDbContext>();
 
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<PrimeService, PrimeService>();
 
             services.AddControllers();
 

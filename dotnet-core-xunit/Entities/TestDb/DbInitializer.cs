@@ -10,6 +10,11 @@ namespace dotnet_core_xunit.Entities.TestDb
 {
     public static class DataSeeder
     {
+        public static void Untested()
+        {
+            int s = 2;
+            System.Console.WriteLine("Hello");
+        }
         public static void SeedData(this IApplicationBuilder app)
         {
             using (IServiceScope serviceScope = app.ApplicationServices.CreateScope())

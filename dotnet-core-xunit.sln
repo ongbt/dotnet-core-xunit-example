@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-core-xunit", "dotnet-core-xunit\dotnet-core-xunit.csproj", "{2E3BB7AC-81E2-4003-AE9D-9BB7569F7D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-core-xunit", "dotnet-core-xunit\dotnet-core-xunit.csproj", "{2E3BB7AC-81E2-4003-AE9D-9BB7569F7D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-core-xunit-test", "dotnet-core-xunit-test\dotnet-core-xunit-test.csproj", "{9B9C6FA2-76F7-48F0-881D-DA93A83FA8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-core-xunit-test", "dotnet-core-xunit-test\dotnet-core-xunit-test.csproj", "{9B9C6FA2-76F7-48F0-881D-DA93A83FA8CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeService", "PrimeService\PrimeService.csproj", "{58417DBF-FCBA-4A6A-B24A-A15AE6E10587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeService.Tests", "PrimeService.Tests\PrimeService.Tests.csproj", "{C2CB9C0D-43CF-4593-9420-EA1C0BB9C17C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{9B9C6FA2-76F7-48F0-881D-DA93A83FA8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B9C6FA2-76F7-48F0-881D-DA93A83FA8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B9C6FA2-76F7-48F0-881D-DA93A83FA8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58417DBF-FCBA-4A6A-B24A-A15AE6E10587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58417DBF-FCBA-4A6A-B24A-A15AE6E10587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58417DBF-FCBA-4A6A-B24A-A15AE6E10587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58417DBF-FCBA-4A6A-B24A-A15AE6E10587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CB9C0D-43CF-4593-9420-EA1C0BB9C17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CB9C0D-43CF-4593-9420-EA1C0BB9C17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CB9C0D-43CF-4593-9420-EA1C0BB9C17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CB9C0D-43CF-4593-9420-EA1C0BB9C17C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
